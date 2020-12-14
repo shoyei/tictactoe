@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="start">Start Game</div>
+    <div id="container"></div>
+    <div id="controls">
+        <div id="player 1">
+            <div class="name">Name</div>
+            <div class="character">X</div>
+        </div>
+        <div id="player 2">
+            <div class="name">Name</div>
+            <div class="character">O</div>
+        </div>
+    </div>
+    <div id='overlay'>
+        <div id='overlayContainer1' class="playercontainer">
+            <label for="p1Name">Player 1's Name</label>
+            <input name="p1Name" id='p1Name'>
+            <label for="p1Char">Switch characters</label>
+            <button name="p1Char" id="p1Char" class="switchChar" value='x'>X</button>
+        </div>
+        <div id="okButton">OK Let's Go!</div>
+        <div id='overlayContainer2' class="playercontainer">
+            <label for="p2Name">Player 2's Name</label>
+            <input name="p2Name" id='p2Name'>
+            <label for="p2Char">Switch characters</label>
+            <button name="p2Char" id='p2Char' class='switchChar' value='o'>O</button>
+        </div>
+
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
