@@ -13,15 +13,17 @@
     <div id="container"></div>
     <div id="controls">
         <div id="player 1">
-            <div class="name">Name</div>
-            <div class="character">X</div>
+            <div class="name" id="player1Name">Player 1</div>
+            <div class="character" id="player1Char"></div>
         </div>
         <div id="player 2">
-            <div class="name">Name</div>
-            <div class="character">O</div>
+            <div class="name" id="player2Name">Player 2</div>
+            <div class="character" id = "player2Char"></div>
         </div>
     </div>
-    <div id='overlay'>
+    <div id="resetBtn">Reset</div>
+
+    <div id='overlay' class='overlay'>
         <div id='overlayContainer1' class="playercontainer">
             <label for="p1Name">Player 1's Name</label>
             <input name="p1Name" id='p1Name'>
@@ -35,8 +37,13 @@
             <label for="p2Char">Switch characters</label>
             <button name="p2Char" id='p2Char' class='switchChar' value='o'>O</button>
         </div>
+    
+    </div>
+
+    <div id="overlay2" class='overlay'>
 
     </div>
+
     <script src="index.js" type="text/javascript"></script>
 </body>
 
